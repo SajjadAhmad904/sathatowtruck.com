@@ -9,7 +9,10 @@ export default function AboutPage() {
         title={`من نحن | سطحة جدة ${PHONE} — سطحة هيدروليك`}
         description={`سطحة جدة متخصصة في السطحة الهيدروليكية وسحب السيارات في جدة والمنطقة الغربية. اتصل ${PHONE}`}
         path="/about"
-        keywords="من نحن سطحة جدة, سطحة هيدروليك جدة, شركة سطحة جدة"
+        breadcrumbs={[
+          { name: 'الرئيسية', path: '/' },
+          { name: 'من نحن', path: '/about' },
+        ]}
       />
       <main className="page">
         <section className="page-hero">

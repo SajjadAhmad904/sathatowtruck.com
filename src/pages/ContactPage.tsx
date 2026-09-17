@@ -10,7 +10,10 @@ export default function ContactPage() {
         title={`اتصل بنا | سطحة جدة ${PHONE}`}
         description={`تواصل مع سطحة جدة على ${PHONE} للاتصال أو واتساب. خدمة سطحة هيدروليك 24/7.`}
         path="/contact"
-        keywords={`اتصل سطحة جدة, رقم سطحة جدة ${PHONE}, واتساب سطحة`}
+        breadcrumbs={[
+          { name: 'الرئيسية', path: '/' },
+          { name: 'اتصل بنا', path: '/contact' },
+        ]}
       />
       <main className="page">
         <section className="page-hero">

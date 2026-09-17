@@ -24,12 +24,20 @@ export default function ServiceDetailPage() {
         title={service.seoTitle}
         description={service.seoDescription}
         path={`/services/${service.slug}`}
-        keywords={service.keywords}
         image={`https://sathatowtruck.com${service.heroImage}`}
+        breadcrumbs={[
+          { name: 'الرئيسية', path: '/' },
+          { name: 'الخدمات', path: '/services' },
+          { name: service.shortTitle, path: `/services/${service.slug}` },
+        ]}
       />
       <main className="page">
         <section className="page-hero page-hero-media">
-          <img src={service.heroImage} alt="" className="page-hero-img" />
+          <img
+            src={service.heroImage}
+            alt={`${service.title} — سطحة جدة ${PHONE}`}
+            className="page-hero-img"
+          />
           <div className="page-hero-veil" />
           <div className="container page-hero-content">
             <nav className="breadcrumb light" aria-label="مسار التنقل">

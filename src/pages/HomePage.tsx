@@ -8,16 +8,17 @@ import Gallery from '../components/Gallery'
 import Testimonials from '../components/Testimonials'
 import Faq from '../components/Faq'
 import Contact from '../components/Contact'
-import { PHONE } from '../data'
+import { homeSeo } from '../routes'
 
 export default function HomePage() {
+  const seo = homeSeo()
   return (
     <>
       <Seo
-        title={`سطحة جدة ${PHONE} | سطحة هيدروليك جدة لنقل السيارات`}
-        description={`سطحة جدة رقم ${PHONE} — خدمة سطحة هيدروليك على مدار 24 ساعة. نقل وسحب السيارات داخل جدة وبين المدن.`}
+        title={seo.title}
+        description={seo.description}
         path="/"
-        keywords="سطحة جدة, رقم سطحة جدة, سطحة هيدروليك جدة, سطحات جدة, اقرب سطحة من موقعي"
+        breadcrumbs={[{ name: 'الرئيسية', path: '/' }]}
       />
       <main>
         <Hero />

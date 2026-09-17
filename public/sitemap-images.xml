@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://sathatowtruck.com/</loc>
+    <image:image>
+      <image:loc>https://sathatowtruck.com/images/logo.png</image:loc>
+      <image:title>شعار سطحة جدة</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sathatowtruck.com/images/satha-1.png</image:loc>
+      <image:title>سطحة جدة لنقل السيارات</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sathatowtruck.com/images/satha-2.png</image:loc>
+      <image:title>سطحة جدة تنقل حافلة</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sathatowtruck.com/images/satha-3.png</image:loc>
+      <image:title>سطحة جدة وقت الغروب</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sathatowtruck.com/images/satha-4.png</image:loc>
+      <image:title>سطحة هيدروليك جدة</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sathatowtruck.com/images/gallery-1.jpg</image:loc>
+      <image:title>سطحة هيدروليك على الطريق</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sathatowtruck.com/images/gallery-2.jpg</image:loc>
+      <image:title>تحميل سيارة على سطحة</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sathatowtruck.com/images/gallery-3.jpg</image:loc>
+      <image:title>سيارة على سطحة هيدروليك</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sathatowtruck.com/images/gallery-4.jpg</image:loc>
+      <image:title>نقل سيارة فل بد</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sathatowtruck.com/images/gallery-5.jpg</image:loc>
+      <image:title>سطحة جدة وقت الغروب</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sathatowtruck.com/images/gallery-6.jpg</image:loc>
+      <image:title>نقل بين المدن من جدة</image:title>
+    </image:image>
+  </url>
+</urlset>

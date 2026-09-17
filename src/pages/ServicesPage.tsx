@@ -10,7 +10,10 @@ export default function ServicesPage() {
         title={`خدمات سطحة جدة ${PHONE} | سحب ونقل وهيدروليك`}
         description={`جميع خدمات سطحة جدة: سحب طوارئ، سطحة هيدروليك، سيارات فاخرة، دراجات، أساطيل، ونقل بين المدن. اتصل ${PHONE}`}
         path="/services"
-        keywords="خدمات سطحة جدة, سطحة هيدروليك, سحب سيارات جدة, نقل بين المدن"
+        breadcrumbs={[
+          { name: 'الرئيسية', path: '/' },
+          { name: 'الخدمات', path: '/services' },
+        ]}
       />
       <main className="page">
         <section className="page-hero">

@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
+# Google SEO starter guide — help discovery
 Sitemap: https://sathatowtruck.com/sitemap.xml

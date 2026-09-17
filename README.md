@@ -27,10 +27,10 @@ npm install
 npm run dev
 ```
 
-## البناء
+## SEO
+
+See [SEO.md](./SEO.md) for Google SEO Starter Guide alignment and Search Console steps.
 
 ```bash
-npm run build
+npm run build   # includes prerender for crawlers
 ```
-
-المخرجات في مجلد `dist/` جاهزة للرفع على أي استضافة ثابتة.
