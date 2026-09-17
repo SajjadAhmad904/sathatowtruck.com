@@ -8,7 +8,10 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="container footer-grid">
         <div>
-          <p className="footer-brand">سطحة جدة</p>
+          <p className="footer-brand">
+            <img src="/images/logo.png" alt="" width={40} height={40} className="footer-logo" />
+            سطحة جدة
+          </p>
           <p className="footer-desc">
             موقع سطحة جدة الرسمي لنقل السيارات. سطحات هيدروليك حديثة داخل وخارج جدة. رقم
             السطحة: <a href={`tel:${PHONE_TEL}`}>{PHONE}</a>

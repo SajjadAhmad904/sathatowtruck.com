@@ -32,7 +32,13 @@ export default function Header() {
     <header className={`site-header${solid ? ' is-scrolled' : ''}`}>
       <div className="container header-inner">
         <Link to="/" className="brand" onClick={close}>
-          <span className="brand-mark" aria-hidden="true" />
+          <img
+            src="/images/logo.png"
+            alt="سطحة جدة"
+            className="brand-logo"
+            width={48}
+            height={48}
+          />
           <span className="brand-text">
             <strong>سطحة جدة</strong>
             <small>Satha Tow Truck</small>

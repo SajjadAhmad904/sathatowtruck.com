@@ -185,14 +185,24 @@ h3,
   z-index: 2;
 }
 
-.brand-mark {
-  width: 42px;
-  height: 42px;
-  border-radius: 10px;
-  background:
-    linear-gradient(135deg, var(--amber) 0 18%, transparent 18% 28%, var(--amber) 28% 36%, transparent 36%),
-    linear-gradient(160deg, var(--red), var(--red-deep));
+.brand-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  object-fit: cover;
   box-shadow: 0 6px 16px rgba(224, 58, 31, 0.35);
+  background: var(--asphalt);
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.footer-logo {
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 .brand-text {
